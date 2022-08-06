@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "185585609438",
+    "firebase_url": "https://tickets-handler-default-rtdb.firebaseio.com",
+    "project_id": "tickets-handler",
+    "storage_bucket": "tickets-handler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185585609438:android:86d4cdb87a9ae09205304f",
+        "android_client_info": {
+          "package_name": "com.example.tickets_handler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185585609438-44vvc3tc5b8vi71loe6uigos5gc7s0d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ39hhXoR2Z1a5ikh-RPwIo4waXPZM1ZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185585609438-44vvc3tc5b8vi71loe6uigos5gc7s0d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
