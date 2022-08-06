@@ -95,33 +95,4 @@ class HandleNotification {
       }
     });
   }
-
-  // Future<void> sendNotification(String title, String body) async {
-  //   final channel = const AndroidNotificationChannel(
-  //     'com.siki.app',
-  //     'High Importance Notifications',
-  //     importance: Importance.high,
-  //   );
-  //   final flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
-
-  //   await flutterLocalNotificationsPlugin
-  //       .resolvePlatformSpecificImplementation<
-  //           AndroidFlutterLocalNotificationsPlugin>()
-  //       ?.createNotificationChannel(channel);
-  //   flutterLocalNotificationsPlugin.show(
-  //     'notification.hashCode'.hashCode,
-  //     title,
-  //     body,
-  //     NotificationDetails(
-  //       android: AndroidNotificationDetails(
-  //         channel.id,
-  //         channel.name,
-  //       ),
-  //       iOS: IOSNotificationDetails(
-  //         presentSound: true,
-  //         presentAlert: true,
-  //       ),
-  //     ),
-  //   );
-  // }
 }
